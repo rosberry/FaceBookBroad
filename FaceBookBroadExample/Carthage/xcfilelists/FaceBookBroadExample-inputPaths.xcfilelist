@@ -1,4 +1,0 @@
-$(SRCROOT)/Carthage/Build/iOS/ButterBroad.framework
-$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework
-$(SRCROOT)/Carthage/Build/iOS/FaceBookBroad.framework
-$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework
