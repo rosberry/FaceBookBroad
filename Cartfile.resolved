@@ -1,0 +1,4 @@
+github "Flight-School/AnyCodable" "0.2.3"
+github "facebook/facebook-objc-sdk" "v5.9.0"
+github "facebook/facebook-swift-sdk" "6563991c598796f8642c41fd61618066b245b864"
+github "rosberry/ButterBroad" "d481c326d6fb37a1d5afb805864e2bc276ae1d1c"
