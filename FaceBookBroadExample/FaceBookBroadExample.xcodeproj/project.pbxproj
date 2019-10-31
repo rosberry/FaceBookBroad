@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0109758B230D1E9F000E8A3F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = ../Cartfile; sourceTree = "<group>"; };
 		0109758D230D1EE1000E8A3F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		0109758F230D25C6000E8A3F /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
 		01097590230D25C6000E8A3F /* ButterBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ButterBroad.framework; path = Carthage/Build/iOS/ButterBroad.framework; sourceTree = "<group>"; };
@@ -73,7 +72,6 @@
 		01DD8B3022FD49AC00D1BDCB = {
 			isa = PBXGroup;
 			children = (
-				0109758B230D1E9F000E8A3F /* Cartfile */,
 				01DD8B3B22FD49AC00D1BDCB /* FaceBookBroadExample */,
 				01DD8B5022FD49AE00D1BDCB /* FaceBookBroadExampleTests */,
 				01DD8B3A22FD49AC00D1BDCB /* Products */,
