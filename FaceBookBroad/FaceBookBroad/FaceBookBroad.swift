@@ -15,7 +15,7 @@ public final class FaceBookBroad: Analytics {
     public init(application: UIApplication) {
         AppEvents.activateApp()
     }
-    
+
     public func log(_ event: Event) {
         AppEvents.logEvent(AppEvents.Name(rawValue: event.name), parameters: event.params)
     }

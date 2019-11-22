@@ -11,7 +11,7 @@ import ButterBroad
 
 final class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,4 +23,3 @@ final class ViewController: UIViewController {
         }
     }
 }
-
