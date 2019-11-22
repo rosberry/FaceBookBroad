@@ -12,7 +12,7 @@ import FBSDKCoreKit
 
 public final class FaceBookBroad: Analytics {
 
-    public init(application: UIApplication) {
+    public func activate() {
         AppEvents.activateApp()
     }
 

@@ -11,7 +11,7 @@ import ButterBroad
 import FaceBookBroad
 
 extension Butter {
-    static let facebook: FaceBookBroad = .init(application: UIApplication.shared)
+    static let facebook: FaceBookBroad = .init()
     static let common: Butter = .init(broads: facebook)
 }
 
@@ -22,5 +22,9 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return true
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        Butter.facebook.activate()
     }
 }
