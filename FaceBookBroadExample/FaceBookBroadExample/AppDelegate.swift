@@ -1,19 +1,11 @@
 //
-//  AppDelegate.swift
-//  FaceBookBroadExample
+//  Butter+ApplicationBroads.swift
 //
-//  Created by Nick Tyunin on 09/08/2019.
 //  Copyright © 2019 Rosberry. All rights reserved.
 //
 
 import UIKit
 import ButterBroad
-import FaceBookBroad
-
-extension Butter {
-    static let facebook: FaceBookBroad = .init()
-    static let common: Butter = .init(broads: facebook)
-}
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {

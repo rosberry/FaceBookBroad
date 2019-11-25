@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0105B2E1238B8B1C000F9B56 /* Butter+ApplicationBroads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105B2E0238B8B1C000F9B56 /* Butter+ApplicationBroads.swift */; };
 		013F448B230D28E6000CBAEF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01097592230D25C6000E8A3F /* FBSDKCoreKit.framework */; };
 		013F448C230D2A6F000CBAEF /* FaceBookBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01097591230D25C6000E8A3F /* FaceBookBroad.framework */; };
 		013F448D230D2B34000CBAEF /* ButterBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01097590230D25C6000E8A3F /* ButterBroad.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0105B2E0238B8B1C000F9B56 /* Butter+ApplicationBroads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Butter+ApplicationBroads.swift"; sourceTree = "<group>"; };
 		0109758D230D1EE1000E8A3F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		0109758F230D25C6000E8A3F /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
 		01097590230D25C6000E8A3F /* ButterBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ButterBroad.framework; path = Carthage/Build/iOS/ButterBroad.framework; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				01DD8B4322FD49AD00D1BDCB /* Assets.xcassets */,
 				01DD8B4522FD49AD00D1BDCB /* LaunchScreen.storyboard */,
 				01DD8B4822FD49AD00D1BDCB /* Info.plist */,
+				0105B2E0238B8B1C000F9B56 /* Butter+ApplicationBroads.swift */,
 			);
 			path = FaceBookBroadExample;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DD8B3F22FD49AC00D1BDCB /* ViewController.swift in Sources */,
+				0105B2E1238B8B1C000F9B56 /* Butter+ApplicationBroads.swift in Sources */,
 				01DD8B3D22FD49AC00D1BDCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
