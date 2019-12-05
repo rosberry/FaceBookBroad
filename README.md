@@ -22,7 +22,7 @@ Create a `Cartfile` that lists the framework and run `carthage update`. Follow t
 github "ntunin/FaceBookBroad"
 ```
 
-Add folowing frameworks to project:
+Add following frameworks to project:
 - Butterbroad.framework
 - FaceBookBroad.framework
 - AnyCodable.framework
