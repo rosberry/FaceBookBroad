@@ -41,7 +41,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01DD8B1322FD468A00D1BDCB"
+               BlueprintIdentifier = "0106029A239A103D00050932"
                BuildableName = "FaceBookBroadTests.xctest"
                BlueprintName = "FaceBookBroadTests"
                ReferencedContainer = "container:FaceBookBroad.xcodeproj">
