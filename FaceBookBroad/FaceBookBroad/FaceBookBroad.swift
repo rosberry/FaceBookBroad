@@ -14,7 +14,6 @@ public final class FaceBookBroad: Analytics {
         AppEvents.activateApp()
     }
 
-    
     public init() {
     }
 
