@@ -10,11 +10,12 @@ import FBSDKCoreKit
 
 public final class FaceBookBroad: Analytics {
     
-    public init() {
+    public var activationHandler: (() -> Void)? = {
+        AppEvents.activateApp()
     }
 
-    public func activate() {
-        AppEvents.activateApp()
+    
+    public init() {
     }
 
     public func log(_ event: Event) {
