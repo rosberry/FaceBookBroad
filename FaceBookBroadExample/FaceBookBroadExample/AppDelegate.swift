@@ -16,7 +16,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         Butter.common.activationHandler?()
         return true
     }
-    
+
     func applicationDidBecomeActive(_ application: UIApplication) {
         Butter.facebook.activationHandler?()
     }
