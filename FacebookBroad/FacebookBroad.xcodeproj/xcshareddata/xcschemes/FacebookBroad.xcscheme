@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01DD8B0A22FD468A00D1BDCB"
-               BuildableName = "FaceBookBroad.framework"
-               BlueprintName = "FaceBookBroad"
+               BuildableName = "FacebookBroad.framework"
+               BlueprintName = "FacebookBroad"
                ReferencedContainer = "container:FaceBookBroad.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01DD8B0A22FD468A00D1BDCB"
-            BuildableName = "FaceBookBroad.framework"
-            BlueprintName = "FaceBookBroad"
+            BuildableName = "FacebookBroad.framework"
+            BlueprintName = "FacebookBroad"
             ReferencedContainer = "container:FaceBookBroad.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,8 +42,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0106029A239A103D00050932"
-               BuildableName = "FaceBookBroadTests.xctest"
-               BlueprintName = "FaceBookBroadTests"
+               BuildableName = "FacebookBroadTests.xctest"
+               BlueprintName = "FacebookBroadTests"
                ReferencedContainer = "container:FaceBookBroad.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01DD8B0A22FD468A00D1BDCB"
-            BuildableName = "FaceBookBroad.framework"
-            BlueprintName = "FaceBookBroad"
+            BuildableName = "FacebookBroad.framework"
+            BlueprintName = "FacebookBroad"
             ReferencedContainer = "container:FaceBookBroad.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -79,8 +79,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01DD8B0A22FD468A00D1BDCB"
-            BuildableName = "FaceBookBroad.framework"
-            BlueprintName = "FaceBookBroad"
+            BuildableName = "FacebookBroad.framework"
+            BlueprintName = "FacebookBroad"
             ReferencedContainer = "container:FaceBookBroad.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

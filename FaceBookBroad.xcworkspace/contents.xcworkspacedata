@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FaceBookBroad/FaceBookBroad.xcodeproj">
+      location = "group:/Users/nick/Documents/GitHub/FaceBookBroad/FaceBookBroad/FacebookBroad.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:FaceBookBroadExample/FaceBookBroadExample.xcodeproj">
+      location = "group:/Users/nick/Documents/GitHub/FaceBookBroad/FaceBookBroadExample/FacebookBroadExample.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,7 +8,7 @@ import UIKit
 import ButterBroad
 import FBSDKCoreKit
 
-public final class FaceBookBroad: Analytics {
+public final class FacebookBroad: Analytics {
 
     public var activationHandler: (() -> Void)? = {
         AppEvents.activateApp()

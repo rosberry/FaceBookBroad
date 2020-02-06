@@ -5,9 +5,9 @@
 //
 
 import ButterBroad
-import FaceBookBroad
+import FacebookBroad
 
 extension Butter {
-    static let facebook: FaceBookBroad = .init()
+    static let facebook: FacebookBroad = .init()
     static let common: Butter = .init(broads: facebook)
 }

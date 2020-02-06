@@ -10,7 +10,7 @@ import XCTest
 import ButterBroad
 import FBSDKCoreKit
 import AnyCodable
-@testable import FaceBookBroad
+@testable import FacebookBroad
 
 struct MockedEvent {
     let name: String
@@ -42,7 +42,7 @@ extension AppEvents {
     }
 }
 
-class FaceBookBroadTests: XCTestCase {
+class FacebookBroadTests: XCTestCase {
     var butterbroad: Butter!
     var expectation: XCTestExpectation!
 
@@ -50,7 +50,7 @@ class FaceBookBroadTests: XCTestCase {
         super.setUp()
         AppEvents.swizzle()
         MockedAnalytics.shared.events = []
-        butterbroad = Butter(broads: FaceBookBroad())
+        butterbroad = Butter(broads: FacebookBroad())
         expectation = self.expectation(for: NSPredicate(block: { analytics, _ in
             guard let analytics = analytics as? MockedAnalytics, analytics.events.count > 0 else {
                 return false

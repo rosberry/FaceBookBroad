@@ -53,14 +53,14 @@
 		01097591230D25C6000E8A3F /* FaceBookBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FaceBookBroad.framework; path = Carthage/Build/iOS/FaceBookBroad.framework; sourceTree = "<group>"; };
 		01097592230D25C6000E8A3F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		0194E28D236AE1BD00334D9D /* AnyCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyCodable.framework; path = ../Carthage/Build/iOS/AnyCodable.framework; sourceTree = "<group>"; };
-		01DD8B3922FD49AC00D1BDCB /* FaceBookBroadExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookBroadExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD8B3922FD49AC00D1BDCB /* FacebookBroadExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookBroadExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DD8B3C22FD49AC00D1BDCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DD8B3E22FD49AC00D1BDCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01DD8B4122FD49AC00D1BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01DD8B4322FD49AD00D1BDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01DD8B4622FD49AD00D1BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01DD8B4822FD49AD00D1BDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01DD8B4D22FD49AE00D1BDCB /* FaceBookBroadExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookBroadExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD8B4D22FD49AE00D1BDCB /* FacebookBroadExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookBroadExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DD8B5122FD49AE00D1BDCB /* FaceBookBroadExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookBroadExampleTests.swift; sourceTree = "<group>"; };
 		01DD8B5322FD49AE00D1BDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01DD8B6122FD4AAE00D1BDCB /* ButterBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ButterBroad.framework; path = ../Carthage/Build/iOS/ButterBroad.framework; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		01DD8B3022FD49AC00D1BDCB = {
 			isa = PBXGroup;
 			children = (
-				01DD8B3B22FD49AC00D1BDCB /* FaceBookBroadExample */,
+				01DD8B3B22FD49AC00D1BDCB /* FacebookBroadExample */,
 				01DD8B5022FD49AE00D1BDCB /* FaceBookBroadExampleTests */,
 				01DD8B3A22FD49AC00D1BDCB /* Products */,
 				01DD8B6022FD4AAE00D1BDCB /* Frameworks */,
@@ -102,13 +102,13 @@
 		01DD8B3A22FD49AC00D1BDCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01DD8B3922FD49AC00D1BDCB /* FaceBookBroadExample.app */,
-				01DD8B4D22FD49AE00D1BDCB /* FaceBookBroadExampleTests.xctest */,
+				01DD8B3922FD49AC00D1BDCB /* FacebookBroadExample.app */,
+				01DD8B4D22FD49AE00D1BDCB /* FacebookBroadExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01DD8B3B22FD49AC00D1BDCB /* FaceBookBroadExample */ = {
+		01DD8B3B22FD49AC00D1BDCB /* FacebookBroadExample */ = {
 			isa = PBXGroup;
 			children = (
 				0109758D230D1EE1000E8A3F /* Cartfile */,
@@ -120,7 +120,7 @@
 				01DD8B4822FD49AD00D1BDCB /* Info.plist */,
 				0105B2E0238B8B1C000F9B56 /* Butter+ApplicationBroads.swift */,
 			);
-			path = FaceBookBroadExample;
+			path = FacebookBroadExample;
 			sourceTree = "<group>";
 		};
 		01DD8B5022FD49AE00D1BDCB /* FaceBookBroadExampleTests */ = {
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01DD8B3822FD49AC00D1BDCB /* FaceBookBroadExample */ = {
+		01DD8B3822FD49AC00D1BDCB /* FacebookBroadExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01DD8B5622FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FaceBookBroadExample" */;
+			buildConfigurationList = 01DD8B5622FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FacebookBroadExample" */;
 			buildPhases = (
 				01DD8B3522FD49AC00D1BDCB /* Sources */,
 				01DD8B3622FD49AC00D1BDCB /* Frameworks */,
@@ -164,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = FaceBookBroadExample;
+			name = FacebookBroadExample;
 			productName = FaceBookBroadExample;
-			productReference = 01DD8B3922FD49AC00D1BDCB /* FaceBookBroadExample.app */;
+			productReference = 01DD8B3922FD49AC00D1BDCB /* FacebookBroadExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01DD8B4C22FD49AE00D1BDCB /* FaceBookBroadExampleTests */ = {
+		01DD8B4C22FD49AE00D1BDCB /* FacebookBroadExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01DD8B5922FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FaceBookBroadExampleTests" */;
+			buildConfigurationList = 01DD8B5922FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FacebookBroadExampleTests" */;
 			buildPhases = (
 				01DD8B4922FD49AE00D1BDCB /* Sources */,
 				01DD8B4A22FD49AE00D1BDCB /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				01DD8B4F22FD49AE00D1BDCB /* PBXTargetDependency */,
 			);
-			name = FaceBookBroadExampleTests;
+			name = FacebookBroadExampleTests;
 			productName = FaceBookBroadExampleTests;
-			productReference = 01DD8B4D22FD49AE00D1BDCB /* FaceBookBroadExampleTests.xctest */;
+			productReference = 01DD8B4D22FD49AE00D1BDCB /* FacebookBroadExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01DD8B3422FD49AC00D1BDCB /* Build configuration list for PBXProject "FaceBookBroadExample" */;
+			buildConfigurationList = 01DD8B3422FD49AC00D1BDCB /* Build configuration list for PBXProject "FacebookBroadExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01DD8B3822FD49AC00D1BDCB /* FaceBookBroadExample */,
-				01DD8B4C22FD49AE00D1BDCB /* FaceBookBroadExampleTests */,
+				01DD8B3822FD49AC00D1BDCB /* FacebookBroadExample */,
+				01DD8B4C22FD49AE00D1BDCB /* FacebookBroadExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +310,7 @@
 /* Begin PBXTargetDependency section */
 		01DD8B4F22FD49AE00D1BDCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01DD8B3822FD49AC00D1BDCB /* FaceBookBroadExample */;
+			target = 01DD8B3822FD49AC00D1BDCB /* FacebookBroadExample */;
 			targetProxy = 01DD8B4E22FD49AE00D1BDCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,13 +406,13 @@
 					"$(SRCROOT)/../Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = FaceBookBroadExample/Info.plist;
+				INFOPLIST_FILE = FacebookBroadExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FaceBookBroadExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FacebookBroadExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookBroadExample.app/FaceBookBroadExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookBroadExample.app/FacebookBroadExample";
 			};
 			name = Analyze;
 		};
@@ -566,13 +566,13 @@
 					"$(SRCROOT)/../Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = FaceBookBroadExample/Info.plist;
+				INFOPLIST_FILE = FacebookBroadExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FaceBookBroadExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FacebookBroadExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -589,13 +589,13 @@
 					"$(SRCROOT)/../Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = FaceBookBroadExample/Info.plist;
+				INFOPLIST_FILE = FacebookBroadExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FaceBookBroadExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosberry.FacebookBroadExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -619,7 +619,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookBroadExample.app/FaceBookBroadExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookBroadExample.app/FacebookBroadExample";
 			};
 			name = Debug;
 		};
@@ -640,14 +640,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookBroadExample.app/FaceBookBroadExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookBroadExample.app/FacebookBroadExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01DD8B3422FD49AC00D1BDCB /* Build configuration list for PBXProject "FaceBookBroadExample" */ = {
+		01DD8B3422FD49AC00D1BDCB /* Build configuration list for PBXProject "FacebookBroadExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01DD8B5422FD49AE00D1BDCB /* Debug */,
@@ -657,7 +657,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01DD8B5622FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FaceBookBroadExample" */ = {
+		01DD8B5622FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FacebookBroadExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01DD8B5722FD49AE00D1BDCB /* Debug */,
@@ -667,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01DD8B5922FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FaceBookBroadExampleTests" */ = {
+		01DD8B5922FD49AE00D1BDCB /* Build configuration list for PBXNativeTarget "FacebookBroadExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01DD8B5A22FD49AE00D1BDCB /* Debug */,
