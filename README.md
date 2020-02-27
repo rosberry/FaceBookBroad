@@ -6,7 +6,6 @@
 
 - Compatible with Butterbroad
 - Easy getting started
-- Remote scripting to configure your Info.plist
 
 ## Requirements
 
@@ -46,7 +45,7 @@ extension Butter {
 }
 ```
 
-#### logging
+#### Logging
 
 ```swift
  Butter.common.logEvent(with: <SOME EVENT HERE>, params: <ADDITIONAL PARAMETERS HERE>)
