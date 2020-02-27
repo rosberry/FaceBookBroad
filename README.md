@@ -27,6 +27,10 @@ Add following frameworks to project:
 - AnyCodable.framework
 - FBSDKCoreKit.framework
 
+### Manually
+
+Drag `Sources` folder from [last release](https://github.com/rosberry/FacebookBroad/releases) into your project.
+
 ## Usage
 
 #### Info.plist configuration
