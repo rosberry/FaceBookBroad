@@ -6,7 +6,6 @@
 
 - Compatible with Butterbroad
 - Easy getting started
-- Remote scripting to configure your Info.plist
 
 ## Requirements
 
@@ -38,15 +37,22 @@ Use [Facebook quickstart](https://developers.facebook.com/docs/analytics/quickst
 
 ```swift
 import ButterBroad
-import FaceBookBroad
+import FacebookBroad
 
 extension Butter {
-    static let facebook: FaceBookBroad = .init(application: UIApplication.shared)
-    static let common: Butter = .init(broads: Butter.facebook)
+    static let facebook: FacebookBroad = .init()
+    static let common: Butter = .init(broads: facebook)
+}
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        Butter.facebook.activationHandler?()
+    }
 }
 ```
 
-#### logging
+#### Logging
 
 ```swift
  Butter.common.logEvent(with: <SOME EVENT HERE>, params: <ADDITIONAL PARAMETERS HERE>)
