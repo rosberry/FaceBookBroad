@@ -22,23 +22,17 @@ Create a `Cartfile` that lists the framework and run `carthage update`. Follow t
 github "ntunin/FaceBookBroad"
 ```
 
-#### Manually
-
-Drag `Sources` folder from [last release](https://github.com/ntunin/FaceBookBroad/releases) into your project.
+Add following frameworks to project:
+- Butterbroad.framework
+- FaceBookBroad.framework
+- AnyCodable.framework
+- FBSDKCoreKit.framework
 
 ## Usage
 
 #### Info.plist configuration
 
-Run the following snippet from your project folder and provide your face book app id and display name
-
-```sh
-curl https://raw.githubusercontent.com/ntunin/FaceBookBroad/develop/RSBSetupFBAnalytics/RSBSetupFBAnalytics/main.swift?token=<YOUR GITHUB AUTH TOKEN> --output "rsb_configure_info_plist_for_fb_analytics.swift"
-chmod +x ./rsb_configure_info_plist_for_fb_analytics.swift
-./rsb_configure_info_plist_for_fb_analytics.swift
-
-
-```
+Use [Facebook quickstart](https://developers.facebook.com/docs/analytics/quickstart-list/ios/) to configure your Info.plist file properly
 
 #### Creating a broad
 
