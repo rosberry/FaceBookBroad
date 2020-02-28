@@ -1,2 +1,2 @@
-github "rosberry/ButterBroad" "feature/ISD-187-agregator"
+github "rosberry/ButterBroad"
 github "facebook/facebook-swift-sdk" "master"
