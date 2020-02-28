@@ -1,6 +1,6 @@
 # Facebook broad
 
-[Butterborad](https://github.com/rosberry/butterbroad/) aggreator for [FBAnalytic](https://developers.facebook.com/docs/analytics/quickstart-list/ios/)
+[Butterbroad](https://github.com/rosberry/butterbroad/) aggreator for [FBAnalytic](https://developers.facebook.com/docs/analytics/quickstart-list/ios/)
 
 ## Features
 
